@@ -14,20 +14,30 @@ YouGif is a simple tool that allows you to create GIFs from YouTube videos. Just
 
 # 🚀 Setup & Usage
 
-`
-# 1. Clone the repository
-git clone https://linktotherepo
 
-# 2. Navigate to the project folder
-cd projectname
+### 1. Clone the repository
+```
+git clone https://github.com/adrielfilipedesign/yougif
+```
 
-# 3. Install the dependencies
+### 2. Navigate to the project folder
+```
+cd yougif
+```
+
+### 3. Install the dependencies
+```
 pip install -r requirements.txt
+```
 
-# (Optional) Create and activate a virtual environment:
-# python -m venv venv
-# source venv/bin/activate  (Linux/macOS)
-# .\venv\Scripts\activate    (Windows)
+### (Optional) Create and activate a virtual environment:
+```
+python -m venv env
+source env/bin/activate  # for (Linux/macOS)
+.\env\Scripts\activate   # for (Windows)
+```
 
-# 4. Run the application
-python app.py `
+### 4. Run the application
+```
+python app.py 
+```
